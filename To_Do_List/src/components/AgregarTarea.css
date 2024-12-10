@@ -1,0 +1,63 @@
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+.form {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+    max-width: 400px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input,
+.textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.textarea {
+    overflow: hidden;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.btnAgregar {
+    background-color: #67f52f;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.btnCancelar {
+    background-color: #ff4a02;
+    color: #FFFFFF;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #7ED321;
+
+}
+
+.mr-2 {
+    margin-right: 10px;
+}
